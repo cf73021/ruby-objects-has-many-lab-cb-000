@@ -3,5 +3,6 @@ class Post
 
   def initialize(name)
     @name = name
+    @posts = []
   end
 end
