@@ -9,5 +9,6 @@ class Post
 
   def author_name
     self.author
+  end
 
 end
