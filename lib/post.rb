@@ -9,10 +9,11 @@ class Post
   end
 
   def author_name
-    binding.pry
+
     if self.author.name == nil then
       nil
     else
+          binding.pry
       self.author.name
     end
   end
